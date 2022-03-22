@@ -1,5 +1,5 @@
-from instagram import InstagramClass
-from twitter import TwitterClass
+from classes.instagram import InstagramClass
+from classes.twitter import TwitterClass
 
 
 newInstagram = InstagramClass ('---- Instagram ----') 
