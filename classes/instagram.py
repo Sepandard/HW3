@@ -14,8 +14,8 @@ class InstagramClass(SocialMediaClass):
 
     def getPosts(self):
         print('---------------------')
-        print('POSTS LIST')
-        print('')
+        print('POSTS LIST \n')
+        
         for index, post in enumerate(PostList):
             print(str(index+1) + '. ' + post)
             print('---------------------')    
